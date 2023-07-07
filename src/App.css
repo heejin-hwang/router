@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #242424;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container > button {
+  margin: 30px;
+  width: 100px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #222222;
+  border-radius: 10px;
+  font-size: 16px;
+  border:none;
+  box-shadow:none;
+  overflow:visible;
+  cursor:pointer
+}
